@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+font-family: ;
+}
+/* font add */
+@media(max-width : 740px){
+    .active p{
+        @apply text-white bg-blue-400
+    }
+}
